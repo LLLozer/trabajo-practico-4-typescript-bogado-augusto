@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/app.ts",
+    "1": "tsx watch src/basicTypes.ts",
+    "2": "tsx watch src/typeFunctions.ts",
+    "3": "tsx watch src/typesAndEnums.ts",
+    "4": "tsx watch src/researchActivity.ts",
     "build": "tsc",
     "start": "node dist/app.js"
   },
